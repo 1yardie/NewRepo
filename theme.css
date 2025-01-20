@@ -1,0 +1,95 @@
+*{
+	/* --titlebar-background: red; */
+}
+.workspace-ribbon.mod-left:before, body.is-focused .sidebar-toggle-button, body.is-focused .workspace-tabs.mod-top{
+	background-color: var(--color-base-20) !important;
+}
+body {
+	--divider-color: transparent;
+	/* --divider-width: 0; */
+	--heading-spacing: 1em;
+	--h1-size: 2.5em;
+	--h1-line-height: 1.1em;
+	--h1-color: #ececec;
+	--h1-weight: 600;
+	--h2-size: 2em;
+	--h2-line-height: 1.33333333;
+	--h2-color: #ececec;
+	--h2-weight: 600;
+	--h3-size: 1.5em;
+	--h3-line-height: 1.6;
+	--h3-color: #ececec;
+	--h3-weight: 600;
+	--h4-size: 1.25em;
+	--h4-line-height: .75em;
+	--h4-color: #ececec;
+	--h4-weight: 600;
+	--p-spacing: .5em;
+	--hr-color: hsla(0, 0%, 100%, .25);
+	--hr-thickness: 1px;
+	--list-indent: 2em;
+	--list-spacing: .5em;
+	--list-bullet-end-padding: .375em;
+	--list-indent-editing: 0em;
+	--list-indent-source: 2em;
+	--line-height-normal: 1.5rem;
+	--font-text-size: 4rem;
+	--p-color:green;
+	/* --link-color: #999; */
+	--link-weight: bold;
+	--link-decoration: inherit;
+	/* --link-unresolved-color: #999; */
+	
+}
+workspace-leaf-resize-handle{
+	--divider-color: red;
+}
+
+.workspace-leaf, .workspace-tab-header-container { background: transparent; } 
+.workspace-split.mod-root, .workspace-split.mod-root .view-content, .workspace-split.mod-root .view-header { background: transparent; } 
+.view-header-title-container:not(.mod-at-end):after { background: transparent; }
+
+hr{
+	margin: 2em 0 !important;
+}
+
+img{
+	padding:1em;
+}
+
+.cm-line {
+    line-height: 1.75em;
+}
+
+ul{}
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+.cm-line:not([class^="HyperMD"]){
+	/* padding: 0 0 0.5em 1em !important; */
+}
+.theme-dark{
+	--color-base-20: #282a36;
+	--color-base-00: #282a36;
+	--color-base-100: #ececec;
+}
+
+svg * {
+	/* stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0; */
+}
+
+.menu {
+	/* padding: var(--size-2-1); */
+}
+
+.menu-item {
+	/* padding: var(--size-4-1) var(--size-4-2); */
+}
+
+.menu-separator {
+	/* margin: var(--size-2-1) calc(var(--size-2-1) * -1); */
+}
+
